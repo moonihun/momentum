@@ -1,3 +1,32 @@
 .hidden {
   display: none;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+body {
+  background-size: cover;
+}
+
+#quote {
+  font-size: 36px;
+}
+
+#todo-input {
+  height: 30px;
+  width: 220px;
+}
+
+#clock {
+  font-size: 36px;
+}
+
+#weather {
+  margin-top: 80px;
+}
